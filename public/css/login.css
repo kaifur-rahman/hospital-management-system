@@ -1,0 +1,25 @@
+.holder{
+  margin-top: 25vh;
+}
+.logoHolder{
+  background-color: #940b0b!important;
+  color: #ffffff;
+  text-align: center;
+}
+
+
+/*right column*/
+.logTitle{
+  color: #940b0b;
+}
+.btn-home{
+  border-color: #940b0b!important;
+  border-radius: 0.5rem!important;
+  border-width: 0.15rem!important;
+  background-color: #940b0b!important;
+  color: #ffffff!important;
+}
+.btn-home:hover{
+  background-color: #940b0b!important;
+}
+/*/right column*/

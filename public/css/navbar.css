@@ -1,0 +1,20 @@
+/*navbar*/
+.navbarHolder{
+  background-color: #ff7878!important;
+  color:#ffffff!important;
+}
+.offCanvasHolder{
+  background-color: #ff7878!important;
+}
+.btnOff{
+  background-color: #ffffff!important;
+}
+.btnOn{
+  background-color:#940b0b!important;
+}
+/*navbar*/
+@media (max-width:574px) {
+  .offcanvas_custom{
+    max-width: 70%!important;
+  }
+}
