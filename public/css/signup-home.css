@@ -1,0 +1,61 @@
+body {
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+.imgIll{
+  height: 25rem!important;
+}
+/*content*/
+.title{
+  position: relative;
+  top: 5vh;
+  color: #ff7878;
+  font-weight: bold;
+  font-size: 3.5rem;
+  word-spacing: 0.1rem;
+}
+.subTitle{
+  position: relative;
+  top: 5vh;
+  color: #696969;
+  font-style: italic;
+  word-spacing: 0.1rem;
+}
+.optionHolder{
+  position: relative;
+  top: 5vh;
+}
+.optionBox{
+  height: 10rem;
+  width: 15rem;
+  border-style:solid;
+  border-color: #696969;
+  border-radius: 1rem;
+}
+.optionBox:hover{
+  cursor: pointer;
+}
+.optionBoxSelected{
+  border-color: #940b0b;
+  border-width: 0.3rem;
+}
+.tick{
+  position: relative;
+  left:11.55rem;
+  bottom: 1.45rem;
+  font-size:3.5rem;
+  color: #ff7878;
+}
+.optionFirstLine{
+  font-size: 1rem;
+  color: #696969;
+  position: relative;
+  top: 1rem;
+}
+.nextBtn{
+  background-color: #940b0b!important;
+  color: #ffffff!important;
+  border-radius: 1rem!important;
+}
+/*/content*/

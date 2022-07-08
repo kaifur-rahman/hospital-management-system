@@ -1,0 +1,22 @@
+.heading{
+  color: #ff7878!important;
+}
+.inputBox{
+  margin-top: 1rem;
+}
+.tip{
+  margin-top: 0.5rem;
+  font-style:italic;
+  color: #940b0b;
+}
+.subBtn{
+  background-color: #940b0b;
+  color: #ffffff;
+  border-style: none;
+  border-radius: 0.4rem;
+}
+footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}

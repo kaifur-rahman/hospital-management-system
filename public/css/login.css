@@ -1,25 +1,45 @@
-.holder{
-  margin-top: 25vh;
+.card{
+  position: relative;
+  top: 12vh;
+  box-shadow: 0px 0px 8px 1.5px rgba(0,0,0,0.5);
+  border-radius: 15px!important;
 }
-.logoHolder{
-  background-color: #940b0b!important;
-  color: #ffffff;
-  text-align: center;
+.card-title{
+  font-weight: bold;
+  color: #940b0b;
+  font-size: 2rem;
 }
-
-
-/*right column*/
-.logTitle{
+.inputBox{
+  color: #ff7878!important;
+  border-radius: 0.4rem;
+  border-width: 0.08rem;
+  border-color: #940b0b;
+}
+.passRest{
+  text-decoration: none;
+  color: black;
+  font-size: 0.8rem;
+  margin-top: 0.4rem;
+  margin-left: 6rem;
+  font-style: italic;
+}
+.passRest:hover{
+  text-decoration: none;
   color: #940b0b;
 }
-.btn-home{
-  border-color: #940b0b!important;
-  border-radius: 0.5rem!important;
-  border-width: 0.15rem!important;
-  background-color: #940b0b!important;
-  color: #ffffff!important;
+.log-btn{
+  background-color: #940b0b;
+  color:#ffffff;
+  height: 2rem;
+  width: 5.5rem;
+  border-radius: 2rem;
+  border-style: none;
+  font-size: 0.8rem;
+  box-shadow: 0px 0px 8px 1.2px rgba(0,0,0,0.3);
 }
-.btn-home:hover{
-  background-color: #940b0b!important;
+footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  font-size: 0.8rem;
 }
-/*/right column*/

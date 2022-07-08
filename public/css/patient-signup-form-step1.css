@@ -1,0 +1,66 @@
+.heading{
+  color: #ff7878!important;
+}
+.tagline{
+  font-style: italic;
+  word-spacing: 0.1rem;
+}
+.inputBoxRight{
+  position: relative;
+  left: 2rem;
+}
+.ageBox{
+  position: relative;
+  left: 5rem;
+}
+.subBtn{
+  background-color: #940b0b;
+  border-style: none;
+  color:#ffffff;
+  position: relative;
+  left: 0rem;
+  border-radius: 0.2rem;
+}
+
+/*responsiveness*/
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (max-width:574px) {
+  .offcanvas_custom{
+    max-width: 70%!important;
+  }
+  .rightCol{
+    position: relative;
+    left: 0rem;
+  }
+  .subBtn{
+    position: relative;
+    left: 0rem;
+  }
+}
+@media (min-width: 576px){
+
+}
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px){
+  .offcanvas_custom{
+    max-width: 50%!important;
+  }
+
+}
+/*/Large devices (desktops, 992px and up)*/
+@media (min-width: 992px){
+  .offcanvas_custom{
+    max-width: 70%!important;
+  }
+}
+
+/*X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px){
+}
+
+/*XX-Large devices (larger desktops, 1400px and up)*/
+
+@media (min-width: 1400px){
+}
+/* /responsiveness*/

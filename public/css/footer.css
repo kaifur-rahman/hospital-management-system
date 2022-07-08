@@ -6,4 +6,11 @@
 .footText{
   letter-spacing: 0.02rem;
 }
+a{
+  text-decoration: none;
+  color:#ffffff;
+}
+a:hover{
+  color:#ffffff;
+}
 /*/footer*/
