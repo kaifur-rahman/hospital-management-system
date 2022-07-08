@@ -6,7 +6,7 @@ const bodyParser=require('body-parser');
 const ejs=require('ejs');
 const mongoose=require('mongoose');
 //connecting database with local port
-mongoose.connect("mongodb://localhost:27017/hospital-management-system");
+mongoose.connect("mongodb+srv://kaifur:Rahman81101K@cluster-hms.sbhip.mongodb.net/Hospital-Management-System");
 
 //initializing unique id
 var unique_int_d=100;
